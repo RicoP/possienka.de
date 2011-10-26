@@ -11,4 +11,4 @@ httpProxy.createServer({
 }).listen(80); 
 
 process.title = "node proxy"; 
-console.log("Proxy gestarted."); 
+console.log("Proxy gestartet."); 
