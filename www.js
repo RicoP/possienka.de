@@ -13,3 +13,7 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.end(index);
 }).listen(8001, "127.0.0.1");
+
+process.title = "node www"; 
+console.log("WWW gestartet"); 
+
